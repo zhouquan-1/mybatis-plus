@@ -37,6 +37,7 @@ class EncryptTest {
     void md5Base64() {
         Assertions.assertEquals("Jgmg8jeuq9EyB1ybYtj1fg==",
             EncryptUtils.md5Base64("犯我中华者虽远必诛"));
+
     }
 
     @Test
